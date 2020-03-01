@@ -7,8 +7,6 @@ module.exports = (options) => {
 
     let path = options.path || "./public"
     let max_size = options.max_size || 100
-    console.log(max_size);
-    
 
     // rename and save dir
     const storage = multer.diskStorage({
